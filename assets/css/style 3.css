@@ -10,7 +10,7 @@
     position: fixed;
 }
 
-#name{
+#myname{
     background-color: #4aaaa5;
     width: 350px;
     float: left;
@@ -63,7 +63,7 @@ hr{
     float: left;
     margin: 5px;
     margin-top: -6px;
- }
+}
 .about p{
     margin: 10px;
     margin-top: 15px;
@@ -81,7 +81,7 @@ hr{
 }
 
 aside{
-    width: 210px;
+    width: 240px;
     background-color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -119,6 +119,23 @@ p{
     font-size: large;
     font-style: italic;
     ont-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
+#name{
+    padding-top: 10px;
+    width: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#email{
+    padding-top: 10px;
+    width: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#message{
+    padding-top: 80px;
+    width: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

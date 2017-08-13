@@ -8,6 +8,7 @@
     left: 0%;
     box-sizing: border-box;
     position: fixed;
+    z-index: 1;
 }
 
 #name{
@@ -31,20 +32,15 @@ nav > a{
 }
 
 
+
+
 body {
     background-image: url("../images/retina_wood.png");
     color: #777777;
     width: 960px;
 }
 
-.about{
-    width: 650px;
-    background-color: #ffffff;
-    margin-top: 100px;
-    margin-left: 100px;
-    padding: 60px;
-    margin-bottom: 10px;
-}
+
 
 hr{
     display: block;
@@ -55,23 +51,7 @@ hr{
     padding: 0;
     color: #777777;
 }
-.about img{
 
-    width: 200px;
-    height: 162px;
-    padding: 10px;
-    float: left;
-    margin: 5px;
-    margin-top: -6px;
- }
-.about p{
-    margin: 10px;
-    margin-top: 15px;
-}
-.about h1{
-    color: #4aaaa5;
-    margin: 10px;
-}
 .social h2{
     color: #4aaaa5;
 }
@@ -91,6 +71,7 @@ aside{
 
 
 
+
 }
 
 .clearfix{
@@ -100,16 +81,6 @@ aside{
 
 
 
-footer{
-    padding: 10px;
-    background-color: #666666;
-    text-align: center;
-    position: fixed ;
-    bottom: 0px;
-    width: 100%;
-    left: 0%;
-    color: #eeeeee;
-}
 
 h1, h2{
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -122,3 +93,72 @@ p{
 
 }
 
+
+.portfolio{
+    width: 650px;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 60px;
+    margin-bottom: 10px;
+}
+
+.portfolio img{
+    width: 250px;
+    padding: 20px;
+}
+
+#one{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 188px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#two{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 482px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#three{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 520px;
+    left: 188px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#four{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 520px;
+    left: 482px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#five{
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    top: 690px;
+    left: 188px;
+    text-align: center;
+    color: #ffffff;
+}
